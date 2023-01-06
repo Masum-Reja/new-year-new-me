@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.btn-contact {
+    border: 0;
+    padding: 18px 30px;
+    color: #FFFFFF;
+    font-size: 20px;
+    height: 64px;
+    background: FFFFFF;
+    border-radius: 5px;
+    margin-left: 970px;
+    font-weight: 600;
+    text-align: right;
+    color: #005FAC;
+    margin-top: 30px;
+    margin-bottom:15%;
+    
+}
+
+.header {
+    background-color: #fff8f3;
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+}
+
+/* banner styles */
+.banner {
+    margin: 0px 25px;
+    display:flex;
+    align-items: center;
+    height:600px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    justify-content: bottom right;
+    width: 470px;
+    color: #f0ecec;
+    text-align: right;
+    margin-left: 580px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.banner-description {
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-left: 580px;
+    padding-right: 75px;
+}
+
+
+/* main section  */
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+section {
+    margin-top: 130px;
+}
+
+/* my failures section */
+
+.failures{
+    display: flex; 
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.failure-title{
+    font-weight: 700;
+    font-size: 40px;
+color: #121212;
+margin-top: 300px;
+margin-bottom: 20px;
+text-align: left justify;
+padding-left: 50px; 
+}
+
+.section-description{
+    text-align:left;
+    font-weight: 400;
+    font-size: 16px;
+    margin:10px ;
+    padding-left: 30px; 
+    color: #444343;
+} 
+ul {
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 50px; 
+    list-style-type:" ✓ "
+}
+
+/* My Plans section styles */
+.my-plan-title{
+    font-weight: 700;
+    font-size: 40px;
+color: #121212;
+text-align: center;
+}
+
+.plan-container {
+    display: flex;
+    align-content: space-around;
+    text-align: center;
+    margin: 60px;
+}
+
+.plan {
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.plan-title {
+    font-weight: 700;
+font-size: 24px;
+    margin-bottom: 10px;
+    color: #121212;
+}
+
+.plan-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+}
