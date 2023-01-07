@@ -5,49 +5,48 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+
 .btn-contact {
     border: 0;
     padding: 18px 30px;
-    color: #FFFFFF;
     font-size: 20px;
     height: 64px;
-    background: FFFFFF;
+    background: #FFFFFF;
     border-radius: 5px;
     margin-left: 970px;
     font-weight: 600;
     text-align: right;
     color: #005FAC;
     margin-top: 30px;
-    margin-bottom:15%;
-    
+
 }
 
 .header {
     background-color: #fff8f3;
     background-image: url('../images/banner/banner3.png');
     background-repeat: no-repeat;
+    height: 100vh;
     background-size: cover;
-    background-position: bottom right;
+    display: flex;
+    background-position: center bottom;
 }
 
 /* banner styles */
 .banner {
-    margin: 0px 25px;
-    display:flex;
+    margin: 0px 20px;
+    display: flex;
     align-items: center;
-    height:600px;
+    width: 100%;
 }
 
 .banner-title {
     font-weight: 700;
     font-size: 65px;
-    justify-content: bottom right;
     width: 470px;
     color: #f0ecec;
     text-align: right;
-    margin-left: 580px;
-    padding-left: 100px;
-    padding-top: 100px;
+    margin-left: 680px;
+    padding-top: 50px;
 }
 
 .banner-description {
@@ -65,54 +64,56 @@
 
 /* main section  */
 main {
-    max-width: 1100px;
-    margin: 0 auto;
+    max-width: 100%;
+    height: 100%;
+    margin: 0 150px;
 }
 
 section {
-    margin-top: 130px;
+    margin-top: 150px;
 }
 
 /* my failures section */
 
-.failures{
-    display: flex; 
-  justify-content: space-between;
-  gap: 50px;
+.failures {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
 }
 
-.failure-title{
+.failure-title {
     font-weight: 700;
     font-size: 40px;
-color: #121212;
-margin-top: 300px;
-margin-bottom: 20px;
-text-align: left justify;
-padding-left: 50px; 
+    color: #121212;
+    margin-top: 300px;
+    margin-bottom: 20px;
+    text-align: left justify;
+    padding-left: 50px;
 }
 
-.section-description{
-    text-align:left;
+.section-description {
+    text-align: left;
     font-weight: 400;
     font-size: 16px;
-    margin:10px ;
-    padding-left: 30px; 
+    margin: 10px;
+    padding-left: 30px;
     color: #444343;
-} 
+}
+
 ul {
     color: #444343;
     font-weight: 400;
     font-size: 16px;
-    padding-left: 50px; 
-    list-style-type:" ✓ "
+    padding-left: 50px;
+    list-style-type: " ✓ "
 }
 
 /* My Plans section styles */
-.my-plan-title{
+.my-plan-title {
     font-weight: 700;
     font-size: 40px;
-color: #121212;
-text-align: center;
+    color: #121212;
+    text-align: center;
 }
 
 .plan-container {
@@ -130,7 +131,7 @@ text-align: center;
 
 .plan-title {
     font-weight: 700;
-font-size: 24px;
+    font-size: 24px;
     margin-bottom: 10px;
     color: #121212;
 }
@@ -139,4 +140,37 @@ font-size: 24px;
     font-weight: 400;
     font-size: 16px;
     color: #707070;
+}
+
+/* gradient */
+
+.gradient-container {
+    background-image: url("../images/watch.png"), linear-gradient(9deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    background-blend-mode: overlay;
+    background-position: center bottom 40px;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    height: 300px;
+    text-align: bottom start;
+}
+
+
+.gradient-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 45px;
+    padding:30px 45px;
+}
+
+.btn-gradient {
+    border: 0;
+    padding: 18px 30px;
+    font-size: 20px;
+    height: 54px;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    text-align: center;
+    color: #005FAC;
+    margin: 0 45px;
 }
