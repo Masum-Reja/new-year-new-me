@@ -18,7 +18,6 @@
     text-align: right;
     color: #005FAC;
     margin-top: 30px;
-
 }
 
 .header {
@@ -60,7 +59,6 @@
     margin-left: 580px;
     padding-right: 75px;
 }
-
 
 /* main section  */
 main {
@@ -145,21 +143,17 @@ ul {
 /* gradient */
 
 .gradient-container {
-    background-image: url("../images/watch.png"), linear-gradient(9deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    background-image: url("../images/watch.png"), linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
     background-blend-mode: overlay;
-    background-position: center bottom 40px;
-    background-repeat: no-repeat;
     border-radius: 8px;
-    height: 300px;
-    text-align: bottom start;
+    background-size: cover;
 }
-
 
 .gradient-title {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 45px;
-    padding:30px 45px;
+    padding: 30px 45px;
 }
 
 .btn-gradient {
@@ -172,5 +166,70 @@ ul {
     border-radius: 8px;
     text-align: center;
     color: #005FAC;
-    margin: 0 45px;
+    margin: 0px 45px 45px;
+}
+
+
+/* contact styles */
+.contact {
+    display: flex;
+    gap: 100px;
+    background-color: #121212;
+    padding: 100px 200px;
+    color: #FFFFFF;
+    justify-content: space-around;
+}
+
+.contact .section-title {
+    text-align: left;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.contact input {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background: none;
+    border: none;
+    height: 30px;
+}
+
+.contact-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-right: 80px;
+    margin: 20px 0;
+    color: #FFFFFF;
+}
+
+#btn-subs {
+    background: #005FAC;
+    border-radius: 8px;
+    margin-top: 20px;
+    height: 50px;
+    padding: 18px 30px;
+}
+
+#subs {
+    border: 2px solid #8b939a;
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    padding: 0 100px 0 20px;
+}
+
+.subs-title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin: 30px 0;
+}
+
+.contact a {
+    text-decoration: none;
+    margin-top: 100px;
 }
