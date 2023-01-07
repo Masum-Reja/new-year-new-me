@@ -13,11 +13,12 @@
     height: 64px;
     background: #FFFFFF;
     border-radius: 5px;
-    margin-left: 970px;
+    margin-left: 980px;
     font-weight: 600;
     text-align: right;
     color: #005FAC;
     margin-top: 30px;
+    margin-bottom: 150px;
 }
 
 .header {
@@ -60,22 +61,21 @@
     padding-right: 75px;
 }
 
-/* main section  */
+/* main section styles  */
 main {
-    max-width: 100%;
+    max-width: 90%;
     height: 100%;
-    margin: 0 150px;
+    margin: 0 100px;
 }
 
 section {
     margin-top: 150px;
 }
 
-/* my failures section */
+/* my failures section styles */
 
 .failures {
     display: flex;
-    justify-content: space-between;
     gap: 50px;
 }
 
@@ -84,9 +84,7 @@ section {
     font-size: 40px;
     color: #121212;
     margin-top: 300px;
-    margin-bottom: 20px;
-    text-align: left justify;
-    padding-left: 50px;
+    padding-left: 35px;
 }
 
 .section-description {
@@ -107,12 +105,6 @@ ul {
 }
 
 /* My Plans section styles */
-.my-plan-title {
-    font-weight: 700;
-    font-size: 40px;
-    color: #121212;
-    text-align: center;
-}
 
 .plan-container {
     display: flex;
@@ -121,10 +113,16 @@ ul {
     margin: 60px;
 }
 
+.my-plan-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #121212;text-align: center;
+}
+
 .plan {
     background: #FFFFFF;
     border-radius: 5px;
-    padding: 30px;
+    padding: 20px;
 }
 
 .plan-title {
@@ -132,6 +130,7 @@ ul {
     font-size: 24px;
     margin-bottom: 10px;
     color: #121212;
+
 }
 
 .plan-description {
@@ -140,7 +139,7 @@ ul {
     color: #707070;
 }
 
-/* gradient */
+/* gradient section styles */
 
 .gradient-container {
     background-image: url("../images/watch.png"), linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
